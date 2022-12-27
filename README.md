@@ -10,6 +10,8 @@ vendor/bin/sail artisan db:seed
 
 vendor/bin/sail npm install
 
+vendor/bin/sail artisan pest:install
+
 # used for Vite.
 npm run dev
 ```
