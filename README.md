@@ -12,6 +12,8 @@ vendor/bin/sail npm install
 
 vendor/bin/sail artisan pest:install
 
+vendor/bin/sail artisan dusk:install
+
 # used for Vite.
 npm run dev
 ```
