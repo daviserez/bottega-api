@@ -27,6 +27,7 @@ services:
             - meilisearch
             - selenium
             - mailhog
+        container_name: labottega.test
     mysql:
         image: 'mysql/mysql-server:8.0'
         ports:
